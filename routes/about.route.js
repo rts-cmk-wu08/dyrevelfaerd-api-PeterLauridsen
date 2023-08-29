@@ -7,4 +7,5 @@ module.exports = function(router) {
 	router.get("/api/v1/abouts", getAllAbouts);
 	router.put("/api/v1/abouts/:id", isAuthorized, updateSingleAbout);
 	router.delete("/api/v1/abouts/:id", isAuthorized, deleteSingleAbout);
+	
 };
